@@ -4,7 +4,7 @@ import { AuthService } from './auth.service';
 import { UsersModule } from 'src/users/users.module';
 import { PrismaService } from 'src/prisma/prisma.service';
 import { JwtModule } from '@nestjs/jwt';
-import { jwtConstants } from './auth.constants';
+import { jwtConstants } from '../constants/constants';
 
 @Module({
   imports: [UsersModule,

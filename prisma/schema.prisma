@@ -16,3 +16,10 @@ model User {
   password String
 }
 
+model Crane {
+  id        Int    @id @default(autoincrement())
+  craneName String
+  lat       Float
+  log       Float
+  setUpTime Float
+}
